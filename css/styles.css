@@ -10011,7 +10011,7 @@ p.lead {
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 
@@ -10113,6 +10113,27 @@ section.resume-section .resume-section-content {
   }
 }
 
+.btn-res {
+    background-color: #495057;
+    border-color: #495057;
+}
+
+.btn-res:hover {
+    background-color: #bd5d38;
+    border-color: #bd5d38;
+}
+
+.btn-res:focus {
+    background-color: #495057;
+    border-color: #495057;
+}
+
+.badge-warning {
+    background-color: #bd5d38;
+    font-size:100%;
+    margin-bottom:.5rem;
+}
+
 /* for projects section */
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
@@ -10161,8 +10182,6 @@ section.resume-section .resume-section-content {
   padding-right: 0;
   padding-left: 0;
 }
-
-
 
 /* for project modal popup */
 .portfolio-modal .portfolio-modal-title {
